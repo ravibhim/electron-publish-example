@@ -5,8 +5,8 @@ on:
       - "v*"
 
 jobs:
-  publish_on_mac:
-    runs-on: macos-latest
+  publish_on_mac_silicon:
+    runs-on: self-hosted
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v3
